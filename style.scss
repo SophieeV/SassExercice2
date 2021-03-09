@@ -1,0 +1,23 @@
+@mixin typographyOne
+{
+  color: blue;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+
+@mixin typographyTwo
+{
+  color: red;
+  font-family: helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.titre
+{
+  @include typographyOne
+}
+
+.corps
+{
+  @include typographyTwo
+}
